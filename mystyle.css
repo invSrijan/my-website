@@ -54,6 +54,12 @@ nav a {
     color: #ffba08;
 }
 
+nav a:focus {
+    color: #ffba08;
+    border: 1px solid #ffba08;
+    background-color: #5a189a;
+}
+
 /* main part */
 main {
     max-width: 900px;
