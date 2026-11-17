@@ -12,8 +12,6 @@ header {
     background-color: #3c096c;
     text-align: center;
     padding: 40px 20px 20px 20px;
-    position: sticky;
-    top: 0;
     border-bottom: 4px solid #ffba08;
 }
 
@@ -69,6 +67,11 @@ section {
     border-top: 4px solid #faa307;
     padding: 20px 30px;
     margin: 30px 0;
+}
+
+section:target {
+    border-top: 8px solid #ffba08;
+    background-color: #fdfaff;
 }
 
 h2 {
