@@ -1,0 +1,233 @@
+/* my css file */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf5ff;
+    color: #240046;
+}
+
+/* header */
+header {
+    background-color: #3c096c;
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    position: sticky;
+    top: 0;
+    border-bottom: 4px solid #ffba08;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 42px;
+}
+
+.hello {
+    margin: 0;
+    color: #ffba08;
+    font-size: 14px;
+}
+
+.tagline {
+    margin: 5px 0 20px 0;
+    color: #e0aaff;
+}
+
+.yellow {
+    color: #ffba08;
+}
+
+.orange {
+    color: #e85d04;
+}
+
+/* menu */
+nav a {
+    display: inline-block;
+    color: #e0aaff;
+    text-decoration: none;
+    padding: 8px 14px;
+    margin: 3px;
+}
+
+.btn {
+    border: 1px solid #ffba08;
+    color: #ffba08;
+}
+
+/* main part */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #e0aaff;
+    border-top: 4px solid #faa307;
+    padding: 20px 30px;
+    margin: 30px 0;
+}
+
+h2 {
+    color: #5a189a;
+    border-bottom: 2px solid #ffba08;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #7b2cbf;
+}
+
+/* photo */
+.photo {
+    float: right;
+    width: 190px;
+    height: 190px;
+    padding: 6px;
+    background-color: #f3e8ff;
+    border: 2px solid #e0aaff;
+    margin: 0 0 15px 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* small tags */
+.tag {
+    display: inline-block;
+    background-color: #f3e8ff;
+    color: #5a189a;
+    border: 1px solid #c77dff;
+    padding: 4px 12px;
+    margin: 3px;
+    font-size: 14px;
+}
+
+/* education */
+.box {
+    border-left: 5px solid #faa307;
+    padding: 5px 15px;
+    margin: 15px 0;
+    background-color: #f3e8ff;
+}
+
+.box h3 {
+    margin: 5px 0;
+    color: #3c096c;
+}
+
+.box p {
+    margin: 5px 0;
+}
+
+/* table */
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #ffba08;
+    color: #10002b;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    background-color: #f3e8ff;
+}
+
+/* interest cards */
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.card {
+    background-color: #f3e8ff;
+    padding: 15px;
+    border-top: 4px solid #ffba08;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #3c096c;
+}
+
+ul li {
+    margin: 3px 0;
+}
+
+section a {
+    color: #5a189a;
+    font-weight: bold;
+}
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    color: #5a189a;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #c77dff;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background-color: #faa307;
+    color: #10002b;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #240046;
+    border-top: 4px solid #ffba08;
+    color: #e0aaff;
+}
+
+footer a {
+    color: #ffba08;
+}
+
+/* for phone */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    header {
+        position: static;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .photo {
+        float: none;
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+}
